@@ -19,6 +19,13 @@ The name “ansible” appeared in Ursula K. Le Guin’s 1966 novel Rocannon’s
 
 This file consolidates the most important Ansible interview questions and answers based on the notes and examples in the `Ansible` folder.
 
+Ansible is primarily written in Python.
+- Core language: Python — Ansible's engine and many of its modules are implemented in Python.
+- Configuration language: YAML — used to write playbooks in a human-readable format.
+- Templating: Jinja2 — used for variables, conditions, loops, and dynamic configuration.
+- Communication: SSH — commonly used to connect to and manage remote Linux servers without installing an agent.
+
+
 ## 1. What is Ansible?
 
 Ansible is an open-source automation tool used for configuration management, application deployment, orchestration, and infrastructure automation. It is agentless, uses SSH/WinRM, and works with YAML-based playbooks.
