@@ -1,5 +1,22 @@
 # Ansible Interview Questions and Answers
 
+
+
+Ansible History: 5 Lesser-Known Facts
+Quick notes for SRE learning and interview preparation.
+1. Created in 2012
+Ansible was created by Michael DeHaan in 2012. He had previously worked on infrastructure automation tools such as Cobbler and Func.
+2. The Name Comes from Science Fiction
+The word “ansible” refers to a fictional device that enables instantaneous communication across vast distances. The term was popularized by author Ursula K. Le Guin.
+3. Designed to Be Agentless
+Ansible can manage remote Linux systems over SSH without requiring a dedicated Ansible agent to be installed on every managed host. This helps keep setup and maintenance simple.
+4. Red Hat Acquired Ansible in 2015
+Red Hat acquired Ansible in 2015, helping expand its use in enterprise IT automation.
+5. YAML Makes Playbooks Readable
+Ansible playbooks use YAML to describe automation tasks in a human-readable format. Ansible modules perform the actual work on managed systems.
+Bonus Fact: The Name's Literary Origin
+The name “ansible” appeared in Ursula K. Le Guin’s 1966 novel Rocannon’s World.
+
 This file consolidates the most important Ansible interview questions and answers based on the notes and examples in the `Ansible` folder.
 
 ## 1. What is Ansible?
